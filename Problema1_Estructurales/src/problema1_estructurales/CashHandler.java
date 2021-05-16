@@ -1,5 +1,10 @@
 package problema1_estructurales;
 
-public class CashHandler {
+public abstract class CashHandler {
+
+    public CashHandler() {
+    }
+    
+    public abstract double processColones();
 
 }
