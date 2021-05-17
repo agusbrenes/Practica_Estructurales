@@ -4,6 +4,8 @@ public abstract class CashHandler {
 
     public CashHandler() {}
     
-    public abstract void processColones(double amount);
+    public void processColones(double amount) {
+        System.out.println(amount + " colones han sido depositados!");
+    }
 
 }
