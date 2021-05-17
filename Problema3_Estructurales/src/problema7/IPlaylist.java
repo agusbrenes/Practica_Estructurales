@@ -10,5 +10,5 @@ package problema7;
  * @author Chuz2
  */
 public interface IPlaylist {
-    public String mostrarInfo();
+    public String showInfo();
 }

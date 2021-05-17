@@ -18,7 +18,7 @@ public class Factory {
     public void listarCanciones(String name[], String artist[], String album[]){
         for (int i = 0; i < artist.length; i++ ) {
             song = new Song(name[i], artist[i], album[i]);
-            System.out.println("Datos de la canción" + song.mostrarInfo());
+            System.out.println("Datos de la canción" + song.showInfo());
         }
     }
 }
