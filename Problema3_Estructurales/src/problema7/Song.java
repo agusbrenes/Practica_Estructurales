@@ -21,7 +21,7 @@ public class Song implements IPlaylist {
     }
 
     @Override
-    public String mostrarInfo() {
+    public String showInfo() {
         return "\nNombre: " + this.name + " Artista: " + this.artist + " Albúm: " + this.album;
     }
 }
